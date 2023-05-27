@@ -1,0 +1,31 @@
+#tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+#img{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(157, 207, 191);
+    border-radius: 20%;
+    margin: 5px;
+}
+
+
+img{
+    width: 60%;
+    margin: 10px;
+}
+h5{ 
+    color: rgb(17, 17, 117);
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
